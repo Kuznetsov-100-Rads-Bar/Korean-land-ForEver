@@ -5,13 +5,7 @@
   --color1: black;
   --color2: #ddb952;
   --color3: antiquewhite;
-  --color4: #c0c0c0;
-  --color5: #a1a1a1;
-  --color6: #7a7a7a;
-  --color7: #525252;
-  --color8: #000000;
-  --color9: #ffffff;
-  --color10: #ff0000;
+  --color4: #F1F2F6;
 }
 
 /********** RESET Paramètre généraux **********/
@@ -136,5 +130,38 @@ h3 {
   opacity: 0.5;
   transform: scale(1.05);
   transition: 0.5s ease-in-out;
+}
+
+/* ******************** SECTION 2 TOURISME ******************** */
+#tourisme {
+  height: 1400px;
+  background-color: var(--color4);
+  padding: 1px 2%;
+}
+
+#tourisme h2 {
+  padding-top: 60px;
+}
+
+#palais {
+  background: url(media/Gyeongbokgung-Palace.jpg);
+}
+#tour {
+  background: url(media/beautiful-architecture-building-.jpg);
+}
+#pont {
+  background: url(media/gwangan-bridge-busan-korea.jpg);
+}
+#jardin-Huwon {
+  background: url(media/autumn-palace.jpg);
+}
+
+#tourisme li {
+  margin: 65px 100px 0 100px;
+  height: 226px;
+  width: 55%;
+  max-width: 550px;
+  float: left;
+  box-shadow: 6px 6px 28px -1px rgba(0, 0, 0, 0.75);
 }
 
