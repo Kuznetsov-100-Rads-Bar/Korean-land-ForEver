@@ -1,9 +1,9 @@
 /********** FONTS Paramètre **********/
-@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap'); 
+@import url("https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap");
 
 :root {
   --color1: black;
-  --color2: #DDB952;
+  --color2: #ddb952;
   --color3: antiquewhite;
   --color4: #c0c0c0;
   --color5: #a1a1a1;
@@ -18,7 +18,7 @@
 body {
   margin: 0;
   padding: 0;
-  font-family: 'Advent Pro', sans-serif;
+  font-family: "Advent Pro", sans-serif;
 }
 
 ul {
@@ -65,7 +65,7 @@ header li a {
 
 #logo {
   float: left;
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   font-weight: bold;
 }
 
@@ -78,11 +78,12 @@ header li a {
 }
 
 h1 {
-  font-family: 'Dancing Script', cursive;
+  font-family: "Dancing Script", cursive;
   text-align: center;
   color: var(--color3);
   font-size: 6rem;
   padding-top: 100px;
+  text-shadow: 1px 3px 2px var(--color1);
 }
 
 /* Le premier trait */
@@ -91,13 +92,27 @@ h1 {
   width: 25%;
   background-color: var(--color3);
   margin: -3px auto;
+  box-shadow: 1px 3px 2px var(--color1);
 }
 
 h3 {
   text-align: center;
   color: var(--color3);
   font-size: 3rem;
+  text-shadow: 1px 3px 2px var(--color1);
 }
 
+/* ******************** SECTION 1 PRESENTATION ******************** */
+#presentation {
+  background-color: var(--color3);
+  padding: 10px 0 100px 0;
+}
 
+#textIntro {
+  padding: 0px 20%;
+}
 
+#prestations {
+  display: flex;
+  flex-wrap: wrap;
+}
