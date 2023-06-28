@@ -115,4 +115,26 @@ h3 {
 #prestations {
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 30px 10%;
 }
+
+.imagesPrestations h4 {
+  font-family: "Dancing Script", cursive;
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 15px;
+  font-weight: 400;
+}
+
+.imagesPrestations img {
+  border-radius: 10px;
+  box-shadow: 5px 5px 3px 1px rgba(0, 0, 0, 0.7);
+}
+
+.imagesPrestations img:hover {
+  opacity: 0.5;
+  transform: scale(1.05);
+  transition: 0.5s ease-in-out;
+}
+
