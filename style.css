@@ -1,0 +1,72 @@
+/********** FONTS Paramètre **********/
+@import url('https://fonts.googleapis.com/css?family=Advent+Pro|Dancing+Script&display=swap'); 
+
+:root {
+  --color1: black;
+  --color2: #DDB952;
+  --color3: #d9d9d9;
+  --color4: #c0c0c0;
+  --color5: #a1a1a1;
+  --color6: #7a7a7a;
+  --color7: #525252;
+  --color8: #000000;
+  --color9: #ffffff;
+  --color10: #ff0000;
+}
+
+/********** RESET Paramètre généraux **********/
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Advent Pro', sans-serif;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+h2 {
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 30px;
+  font-size: 2rem;
+}
+
+a {
+  text-decoration: none;
+  color: var(--color1);
+}
+
+/* ******************** NAVBAR ******************** */
+nav {
+  overflow: hidden;
+  background-color: var(--color2);
+  position: fixed;
+  width: 100%;
+  opacity: 0.9;
+}
+
+header li {
+  float: right;
+  font-size: 1.2rem;
+}
+
+header li a {
+  display: block;
+  text-decoration: none;
+  text-align: center;
+  padding: 18px 16px; /* 18px en HAUT-BAS et 16px à GAUCHE et à DROITE */
+}
+
+#logo {
+  float: left;
+  font-family: 'Dancing Script', cursive;
+  font-weight: bold;
+}
+
+
