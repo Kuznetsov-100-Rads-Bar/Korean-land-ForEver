@@ -201,5 +201,34 @@ footer {
 
 form {
   margin: 0 auto;
-  max-width: 900px; /* 900px de largeur */
+  max-width: 900px; /* 900px de largeur maximal Pour ne pas que le formulaire s'agrandit à l'infini si l'écran utilisateur est assez grand ! */
+}
+
+input, textarea, button {
+  border: none;
+  width: 55%; /* Toujours exprimé en % : 55% de largeur */
+  padding: 15px 10px; /* 15px en HAUT et en BAS, 10px à GAUCHE et à DROITE */
+  margin: 2px 0; /* 2px en HAUT et en BAS, 0 à GAUCHE et à DROITE */
+  font-size: 1.2rem;
+  font-family: "Advent Pro", sans-serif;
+  border-radius: 8px;
+}
+
+textarea {
+  height: 120px;
+  resize: none; /* Pour ne pas que l'utilisateur puisse redimensionner la zone de texte */
+}
+
+button {
+  font-size: 1.5rem;
+  background-color: var(--color3);
+  color: var(--color7);
+  font-weight: 700;
+}
+
+button:hover {
+  background-color: var(--color2);
+  color: var(--color1);
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
 }
