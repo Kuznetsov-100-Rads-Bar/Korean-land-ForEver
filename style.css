@@ -18,6 +18,10 @@ body {
   font-family: "Advent Pro", sans-serif;
 }
 
+html  {
+  scroll-behavior: smooth; /* Permet de faire un scroll fluide */
+}
+
 ul {
   margin: 0;
   padding: 0;
