@@ -6,6 +6,8 @@
   --color2: #ddb952;
   --color3: antiquewhite;
   --color4: #F1F2F6;
+  --color5: #01DF74;
+  --color6: cyan;
 }
 
 /********** RESET Paramètre généraux **********/
@@ -168,5 +170,22 @@ h3 {
 #tourisme p {
   height: 45px;
   width: 235px;
-  background-color: #01DF74;
+  background-color: var(--color5);
+  float: right;
+  margin: 50px -180px 0 0;
+  font-size: 1.5rem;
+  text-align: center;
+  padding-top: 15px;
+  box-shadow: 4px 4px 0 1px rgba(90, 161, 43, 1);
+}
+
+#tourisme #tour, #tourisme #jardin-Huwon {
+  float: right;
+}
+
+#tour p, #jardin-Huwon p {
+  float: left;
+  margin-left: -180px;
+  background-color: var(--color6);
+  box-shadow: -4px 4px 0 1px rgba(15, 154, 156, 1);
 }
