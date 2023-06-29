@@ -64,6 +64,7 @@ header li a {
   float: left;
   font-family: "Dancing Script", cursive;
   font-weight: bold;
+  font-size: 2rem;
 }
 
 /* ******************** IMAGE PRINCIPALE ******************** */
@@ -231,4 +232,39 @@ button:hover {
   color: var(--color1);
   cursor: pointer;
   transition: 0.3s ease-in-out;
+}
+
+#deuxiemeTrait {
+  height: 1px;
+  width: 75%;
+  background-color: var(--color3);
+  margin: 60px auto; /* 60px en HAUT et en BAS, et auto sur les cotés DROIT/GAUCHE pour le centrer */
+}
+
+#copyrightEtIcons {
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0 10%; 
+}
+
+#copyright {
+  width: 50%;
+  text-align: left;
+  color: var(--color3);
+}
+
+#icons {
+  width: 50%;
+  text-align: right;
+} 
+
+#icons a {
+  display: inline-block;
+  padding: 0 15px;
+  color: var(--color3); 
+}
+
+#icons a:hover {
+  transform: scale(1.5);
+  transition: 0.1s;
 }
