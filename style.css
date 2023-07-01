@@ -271,6 +271,7 @@ button:hover {
 #icons a:hover {
   transform: scale(1.5);
   transition: 0.1s;
+  color: var(--color2);
 }
 
 /* ******************** MEDIA QUERIES ******************** */
@@ -347,6 +348,32 @@ button:hover {
   }
   h2{
     font-size: 1.6rem;
+  }
+  form {
+    width: 90%;
+  }
+  input, textarea, button {
+    width: 90%;
+  }
+  input, textarea, button {
+    font-size: 1rem;
+  }
+  #icons {
+    width: 100%;
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  #icons a {
+    padding: 0 8px;
+  }
+  
+  #copyright span {
+    font-size: 1.1rem;
+  }
+  #copyrightEtIcons {
+    flex-direction: column;
+    align-items: center;
   }
 }
 
