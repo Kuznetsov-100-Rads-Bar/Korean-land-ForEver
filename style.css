@@ -276,8 +276,8 @@ button:hover {
 /* ******************** MEDIA QUERIES ******************** */
 @media screen and (max-width: 1024px) {
   #tourisme {
-    height: auto; /* Ajustez la hauteur selon vos besoins */
-    padding: 10px; /* Ajustez le padding selon vos besoins */
+    height: auto; 
+    padding: 10px; 
   }
   
   #tourisme li {
@@ -296,9 +296,13 @@ button:hover {
 }
 
 @media screen and (max-width: 768px) {
-
-    #tourisme {
-    margin-top: 60px; /* Ajout de la marge supérieure pour compenser la hauteur de la navigation */
+  #imagePrincipale {
+   object-fit: cover;
+   height: 480px; 
+  }
+}
+  #tourisme {
+    margin-top: 60px; 
   }
   #presentation #textIntro {
     padding: 0 10%;
@@ -317,9 +321,9 @@ button:hover {
     z-index: 99;
   }
   nav {
-    position: fixed; /* Ajoutez cette ligne pour maintenir la barre de navigation fixe */
-    top: 0; /* Ajoutez cette ligne pour fixer la barre de navigation en haut de l'écran */
-    z-index: 999; /* Ajoutez cette ligne pour gérer la superposition */
+    position: fixed; 
+    top: 0; 
+    z-index: 999; 
   }
 
   header li {
@@ -344,5 +348,5 @@ button:hover {
     font-size: 1.6rem;
   }
 
-}
+
 
